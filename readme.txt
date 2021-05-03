@@ -1,5 +1,4 @@
-CMPT 300 Assignment 4
-Ahmad As Sami, SFU ID: 301404717
+A program which mirrors the ls command in linux, but custom written. Uses recursive sorting to get all directories for the ls -R functionality, also -i and -l are used to use long listing (file stat struct fields utilized for these functionalities). 
 
 
 Resources Used To Learn about directories and STAT function:
@@ -31,16 +30,4 @@ Extra resources:
 //https://cboard.cprogramming.com/c-programming/112085-should-i-include-libraries-header-file-source-file.html
 
 
-Question 2:
-The program took more than 2 weeks to code and to test. Mainly I struggled to print and understand
-all the different -rwd..etc fields. Another thing I struggled with was the user input if user
-inputted a directory name specificaly in the myls. I mainly learnt the properties of the file system,
-all different facts of file and used the stat struct fields a lot. I also struggled to recursively
-display the sub directories, and the sorting took a lot of trial and error. 
-Also for the first time in
-all assignments, I used modularity; I separated the functions in different .h files to 
-make the code look better. 
-As an added function, like last assignment, I noticed in ls the directories have different
-color compared to the files; that's something which could be added as a feature here too;
-where directories can have a different color compared to files. 
 
